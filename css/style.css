@@ -12,7 +12,29 @@
   box-sizing: border-box;
 }
 /* header section styles start */
-
+.header {
+  background-image: url(../images/Donate1.png), url(../images/hd.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.header-all {
+  padding: 120px 160px;
+}
+.main-header-head {
+  font-weight: 700;
+  font-size: 65px;
+  color: #121212;
+  margin-bottom: 20px;
+  font-family: var(--main_font);
+}
+.main-header-description {
+  color: #707070;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  margin-bottom: 30px;
+}
 .primary-btn {
   height: 56px;
   background: #ff5959;
