@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lobster&family=Manrope&family=Poppins:wght@400;500;600;700;800&display=swap");
+:root {
+  --main_font: "Inter", sans-serif;
+  --paragraph_font: "Poppins", sans-serif;
+  --common_color: #ff5959;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header section styles start */
+
+.primary-btn {
+  height: 56px;
+  background: #ff5959;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: var(--main_font);
+  color: #ffffff;
+  padding: 16px 20px;
+  cursor: pointer;
+}
+/* header section styles end */
+/* donate-today section styles start */
+.donate-today {
+  margin-bottom: 130px;
+}
+.donate-today-all {
+  margin-top: 130px;
+  text-align: center;
+}
+.donate-today-heading {
+  font-family: var(--main_font);
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.donate-today-description {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  margin-bottom: 50px;
+}
+.all-taka {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.taka {
+  width: 135px;
+  height: 123px;
+  background: #fafafa;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main_font);
+}
+.taka-madify {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.donate-input {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  width: 765px;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* donate-today section styles end */
+/* donate-plan section start */
+.donate-plan {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.donate-plan-title {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: var(--main_font);
+  color: #121212;
+  margin-bottom: 20px;
+}
+.donate-plan-description {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  margin-bottom: 50px;
+}
+.donate-plan-items {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.plan-item {
+  width: 360px;
+  height: 352px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  text-align: left;
+  padding: 60px 25px;
+}
+.item-title {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: var(--paragraph_font);
+  color: #121212;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.item-description {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+}
+/* donate-plan section end */
+/* Gallery details section start */
+.gallery-01 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.gallery-01 img {
+  width: 550px;
+  border-radius: 5px;
+}
+.details-title {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: var(--main_font);
+  color: #121212;
+  margin-bottom: 20px;
+}
+.details-description {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  color: #707070;
+  margin-bottom: 20px;
+}
+.gallery-02 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 130px;
+}
+.gallery-02 img {
+  width: 550px;
+  border-radius: 5px;
+}
+/* Gallery details section end */
+/* Updates section start */
+.Updates {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.updates-title {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: var(--main_font);
+  color: #121212;
+  margin-bottom: 20px;
+}
+.updates-description {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--paragraph_font);
+  color: #707070;
+  margin-bottom: 50px;
+}
+.email {
+  width: 809px;
+  height: 200px;
+  background: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.email input {
+  width: 275px;
+  height: 48px;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  padding: 14px 17px;
+  border: none;
+}
+.email-btn {
+  width: 157px;
+  height: 48px;
+  background: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: var(--paragraph_font);
+  cursor: pointer;
+}
+/* Updates section end */
+/* footer section start  */
+.footer {
+  background: #0b0d17;
+  text-align: center;
+}
+.footer-title {
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+  padding-top: 45px;
+  font-family: "Lobster";
+}
+.footer-para {
+  font-weight: 400;
+  font-size: 14px;
+  color: #d9dbe1;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  font-family: "Manrope";
+}
+/* footer section end  */
