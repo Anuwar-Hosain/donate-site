@@ -13,11 +13,13 @@
 }
 /* header section styles start */
 .header {
+  background: #fafafa;
+}
+.header-all {
   background-image: url(../images/Donate1.png), url(../images/hd.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-}
-.header-all {
+  background-position-x: 1000px, 800px;
   padding: 120px 160px;
 }
 .main-header-head {
@@ -46,6 +48,11 @@
   color: #ffffff;
   padding: 16px 20px;
   cursor: pointer;
+}
+.watch {
+  border: 1px solid #ff5959;
+  color: #707070;
+  background-color: transparent;
 }
 /* header section styles end */
 /* donate-today section styles start */
