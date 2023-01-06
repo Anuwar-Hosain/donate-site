@@ -21,6 +21,7 @@
   background-position: right bottom;
   background-position-x: 1000px, 800px;
   padding: 120px 160px;
+  height: 600px;
 }
 .main-header-head {
   font-weight: 700;
